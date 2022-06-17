@@ -1,4 +1,4 @@
-package com.nageshempire.library
+package com.nageshempire.mad.sample
 
 import org.junit.Test
 

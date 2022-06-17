@@ -1,7 +1,7 @@
 
 Library
 ---------------------
-description
+Modern Android Development Essential Library - Don't Copy Paste Same Code Over Projects
 
 Usage
 -------
@@ -14,13 +14,13 @@ Download
 --------
 
 ```groovy
-implementation("io.github.nageshks.library:library:<latest-release>")
+implementation("io.github.nageshks.mad:essentials:<latest-release>")
 ```
 
 License
 -------
 
-    Copyright (C) 2021 Nagesh Empire
+    Copyright (C) 2022 Nagesh Empire
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

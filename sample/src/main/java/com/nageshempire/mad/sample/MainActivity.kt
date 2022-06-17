@@ -1,4 +1,4 @@
-package com.nageshempire.sample
+package com.nageshempire.mad.sample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

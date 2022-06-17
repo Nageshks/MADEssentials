@@ -27,7 +27,7 @@ buildscript {
 
 
         app_id ="com.nageshempire.nextplayer.mad.sample"
-        library_id ="com.nageshempire.nextplayer.mad"
+        library_id ="com.nageshempire.nextplayer.mad.essentials"
         app_compileSdk = 32
         app_buildToolsVersion = "32.0.0"
         app_minSdk = 21
