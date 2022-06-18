@@ -34,10 +34,19 @@ android {
 }
 
 dependencies {
-    implementation "$fragment_ktx"
-    implementation "$core_ktx"
-    implementation "$app_compat"
-    implementation "$material"
+    api "$fragment_ktx"
+    api "$core_ktx"
+    api "$app_compat"
+    api "$material"
+    api "$constraint"
+    api "androidx.cardview:cardview:$card_version"
+    api "androidx.recyclerview:recyclerview:$recycler_version"
+    api "androidx.activity:activity-ktx:$activity_version"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+    api "com.jakewharton.timber:timber:$timber_version"
+    api ("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
     testImplementation "$t_junit"
     androidTestImplementation "$at_junit"
     androidTestImplementation "$at_espresso"

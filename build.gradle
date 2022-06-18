@@ -10,7 +10,14 @@ buildscript {
         v_fragment_ktx = '1.3.6'
         v_app_compat = '1.3.1'
         v_material = '1.4.0'
-        v_constraint = '2.1.0'
+        v_constraint = '2.1.4'
+        activity_version= '1.4.0'
+        lifecycle_version = '2.4.1'
+        recycler_version = '1.2.1'
+        timber_version = '5.0.1'
+        card_version = '1.0.0'
+        coroutines_version= "1.6.1"
+
         v_t_junit = '4.13.2'
         v_at_junit = '1.1.3'
         v_at_espresso = '3.4.0'
@@ -21,6 +28,7 @@ buildscript {
         app_compat = "androidx.appcompat:appcompat:$v_app_compat"
         material = "com.google.android.material:material:$v_material"
         constraint = "androidx.constraintlayout:constraintlayout:$v_constraint"
+
         t_junit = "junit:junit:$v_t_junit"
         at_junit = "androidx.test.ext:junit:$v_at_junit"
         at_espresso = "androidx.test.espresso:espresso-core:$v_at_espresso"
