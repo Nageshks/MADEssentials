@@ -28,6 +28,14 @@ buildscript {
         app_compat = "androidx.appcompat:appcompat:$v_app_compat"
         material = "com.google.android.material:material:$v_material"
         constraint = "androidx.constraintlayout:constraintlayout:$v_constraint"
+        card = "androidx.cardview:cardview:$card_version"
+        recycler = "androidx.recyclerview:recyclerview:$recycler_version"
+        activity = "androidx.activity:activity-ktx:$activity_version"
+        viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+        livedata = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+        runtime = "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+        timber = "com.jakewharton.timber:timber:$timber_version"
+        coroutines = ("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
 
         t_junit = "junit:junit:$v_t_junit"
         at_junit = "androidx.test.ext:junit:$v_at_junit"
