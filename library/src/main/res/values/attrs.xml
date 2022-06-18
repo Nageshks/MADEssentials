@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ForegroundImageView">
+        <attr name="android:foreground" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalPadding" format="dimension|reference" />
+        <attr name="verticalPadding" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableTextView">
+        <attr format="reference" name="c_drawableLeftCompat"/>
+        <attr format="reference" name="c_drawableTopCompat"/>
+        <attr format="reference" name="c_drawableRightCompat"/>
+        <attr format="reference" name="c_drawableBottomCompat"/>
+    </declare-styleable>
+</resources>
