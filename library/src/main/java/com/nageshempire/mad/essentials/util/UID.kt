@@ -1,4 +1,4 @@
-package com.nageshempire.mad.essentials
+package com.nageshempire.mad.essentials.util
 
 import java.util.concurrent.atomic.AtomicInteger
 

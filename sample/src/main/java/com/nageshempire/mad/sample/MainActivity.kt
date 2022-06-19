@@ -1,13 +1,13 @@
 package com.nageshempire.mad.sample
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.nageshempire.mad.essentials.ui.BaseActivity
+import com.nageshempire.nextplayer.mad.sample.R
+import com.nageshempire.nextplayer.mad.sample.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity<ActivityMainBinding>(
+    R.layout.activity_main
+) {
+    override fun onBindingInflated() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        // Todo Add View
     }
-
 }

@@ -1,6 +1,5 @@
-package com.nageshempire.mad.essentials
+package com.nageshempire.mad.essentials.reactive
 
-import androidx.lifecycle.Observer
 
 open class UIEvent<out T>(private val content: T) {
 
@@ -19,10 +18,3 @@ open class UIEvent<out T>(private val content: T) {
     fun peekContent(): T = content
 }
 
-class UIEventObserver<T>(private val onEventUnhandledContent: (T) -> Unit) : Observer<UIEvent<T>> {
-    override fun onChanged(event: UIEvent<T>?) {
-        event?.getContentIfNotHandled()?.let {
-            onEventUnhandledContent(it)
-        }
-    }
-}
