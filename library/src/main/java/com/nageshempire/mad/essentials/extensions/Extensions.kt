@@ -1,3 +1,5 @@
+@file:JvmName("Extensions")
+@file:JvmMultifileClass
 package com.nageshempire.mad.essentials.extensions
 
 import android.net.Uri
